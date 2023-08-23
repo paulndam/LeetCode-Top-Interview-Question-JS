@@ -24,7 +24,7 @@ const merge2 = (array1, array2) => {
         finalArray.push(array1[i])
         i++
     }
-    // check if there's any element left in array 1, if so , add them into final array.
+    // check if there's any element left in array 2, if so , add them into final array.
     while (j < array1.length) {
         finalArray.push(array1[j])
         j++
